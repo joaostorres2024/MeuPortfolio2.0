@@ -26,7 +26,10 @@
 </template>
 
 <style scoped>
+*{}
+
 .header-mobile {
+    background: #FFFAF8;
     padding: 30px;
     align-items: center;
     justify-content: space-between;

@@ -1,9 +1,11 @@
 <script setup lang="ts">
  import cabecalho from './components/cabecalho.vue'
+    import apresentacao from './components/apresentacao.vue'
 </script>
 
 <template>
  <cabecalho></cabecalho>
+ <apresentacao></apresentacao>
 </template>
 
 <style>
