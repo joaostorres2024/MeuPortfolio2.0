@@ -20,7 +20,7 @@
             <nav>
                 <div class="nav-container">
                     <ul>
-                        <a href="/meu-portfolio-2-0/src/App.vue"><li>HOME</li></a>
+                        <a href="/meu-portfolio-2-0/src/App.vue "><li>HOME</li></a>
                         <a href="#"><li>SOBRE MIM</li></a> 
                         <a href="#"><li>EXPERIÊNCIA</li></a>
                         <a href="#"><li>CERTIFICADOS</li></a>
@@ -58,7 +58,7 @@
     justify-content: space-between;
     display: flex;
     width: 100vw;
-    height: 100px;
+    height: 10vh;
 }
 
 #menu-icon {
@@ -99,12 +99,12 @@
 
 #p-text1 {
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #p-text2 {
     font-weight: 300;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 .menu-ul {
@@ -148,16 +148,16 @@
     margin-top: 20px;
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1300px) {
     .header-mobile{
         display: none;
     }
     .header-desktop{
-        padding: 30px;
+        padding: 20px;
         align-items: center;
         justify-content: space-between;
         background-color: #FFFAF8;
-        height: 100px;
+        height: 10vh;
         width: 100vw;
         display: flex;
     }
