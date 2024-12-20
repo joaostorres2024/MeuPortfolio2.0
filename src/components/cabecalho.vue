@@ -11,6 +11,25 @@
                 </div>
             </nav> 
         </section>
+        <!--HEADER DESKTOP-->
+        <section class="header-desktop">
+            <div class="header-container">
+                <p id="p-text1">João Pedro Soares Torres</p>
+                <p id="p-text2">Desenvolvedor Front-End e UX/UI Designer</p>
+            </div>
+            <nav>
+                <div class="nav-container">
+                    <ul>
+                        <a href="/meu-portfolio-2-0/src/App.vue"><li>HOME</li></a>
+                        <a href="#"><li>SOBRE MIM</li></a> 
+                        <a href="#"><li>EXPERIÊNCIA</li></a>
+                        <a href="#"><li>CERTIFICADOS</li></a>
+                        <a href="#"><li>PROJETOS</li></a>
+                        <a href="#"><li>CONTATO</li></a>
+                    </ul>
+                </div>
+            </nav>
+        </section>
         <section id="menu" :class="{ 'full-screen-menu': isMenuVisible, 'hide-menu': !isMenuVisible }">
             <ul class="menu-ul"> 
                 <li><a href="/meu-portfolio-2-0/src/App.vue">HOME</a></li>
@@ -27,6 +46,10 @@
 
 <style scoped>
 *{}
+
+.header-desktop{
+    display: none;
+}
 
 .header-mobile {
     background: #FFFAF8;
@@ -124,6 +147,44 @@
 .moon {
     margin-top: 20px;
 }
+
+@media (min-width: 1000px) {
+    .header-mobile{
+        display: none;
+    }
+    .header-desktop{
+        padding: 30px;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #FFFAF8;
+        height: 100px;
+        width: 100vw;
+        display: flex;
+    }
+
+    .nav-container ul{
+        color: black;
+        list-style-type: none;
+        display: flex;
+    }
+
+    .nav-container ul a{
+        font-weight: 300;
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+    }
+    #p-text1{
+        font-size: 22px;
+    }
+    #p-text2{
+        font-size: 15px;
+    }
+    .nav-container a:hover{
+    color: #3D0094;
+    transition: 0.3s ease;
+}
+}  
 </style>
 
 
