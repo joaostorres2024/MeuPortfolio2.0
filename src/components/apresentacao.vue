@@ -1,7 +1,7 @@
 <template>
-    <section class="main-mobile">
-        <main>
-        <div class="main-container">
+    <main>
+        <section class="main-mobile">
+            <div class="main-container">
                 <p id="hello">Olá Mundo!</p>
                 <p id="iam">Sou <span class="name-span">João Pedro Soares</span></p>
                 <p id="pres">Bem-vindo ao meu portfólio! Sou <span class="name-span">Desenvolvedor Front-End</span> e <span class="name-span">UX/UI Designer</span>, aqui você pode conhecer minha trajetória e explorar meus projetos. Tenho paixão por criar experiências digitais intuitivas, combinando design e desenvolvimento de forma eficiente. Fique à vontade para conferir meu trabalho!</p>
@@ -14,15 +14,25 @@
             </ul>
         </div>
         </div>
+        </section>
+        <section class="main-desktop">
+            <div class="main-container-desktop">
+                   <div class="text">
+                        <p id="hellod">Olá Mundo!</p>
+                        <p id="iamd">Sou <span class="name-span">João Pedro Soares</span></p>
+                        <p id="presd">Bem-vindo ao meu portfólio! Sou <span class="name-span">Desenvolvedor Front-End</span> e <span class="name-span">UX/UI Designer</span>, aqui você pode conhecer minha trajetória e explorar meus projetos. Tenho paixão por criar experiências digitais intuitivas, combinando design e desenvolvimento de forma eficiente. Fique à vontade para conferir meu trabalho!</p>
+                    <ul class="redes-sociais-ul">
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-soares-torres-101a532b4/" target="_blank"><li class="iconsimg"><img class="icons-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjMDAwIiBkPSJNMTkgM2EyIDIgMCAwIDEgMiAydjE0YTIgMiAwIDAgMS0yIDJINWEyIDIgMCAwIDEtMi0yVjVhMiAyIDAgMCAxIDItMnptLS41IDE1LjV2LTUuM2EzLjI2IDMuMjYgMCAwIDAtMy4yNi0zLjI2Yy0uODUgMC0xLjg0LjUyLTIuMzIgMS4zdi0xLjExaC0yLjc5djguMzdoMi43OXYtNC45M2MwLS43Ny42Mi0xLjQgMS4zOS0xLjRhMS40IDEuNCAwIDAgMSAxLjQgMS40djQuOTN6TTYuODggOC41NmExLjY4IDEuNjggMCAwIDAgMS42OC0xLjY4YzAtLjkzLS43NS0xLjY5LTEuNjgtMS42OWExLjY5IDEuNjkgMCAwIDAtMS42OSAxLjY5YzAgLjkzLjc2IDEuNjggMS42OSAxLjY4bTEuMzkgOS45NHYtOC4zN0g1LjV2OC4zN3oiLz48L3N2Zz4=" alt=""></li></a>
+                        <a href="https://github.com/joaostorres2024" target="_blank"><li class="iconsimg"><img class="icons-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjMDAwIiBkPSJNMTIgMkExMCAxMCAwIDAgMCAyIDEyYzAgNC40MiAyLjg3IDguMTcgNi44NCA5LjVjLjUuMDguNjYtLjIzLjY2LS41di0xLjY5Yy0yLjc3LjYtMy4zNi0xLjM0LTMuMzYtMS4zNGMtLjQ2LTEuMTYtMS4xMS0xLjQ3LTEuMTEtMS40N2MtLjkxLS42Mi4wNy0uNi4wNy0uNmMxIC4wNyAxLjUzIDEuMDMgMS41MyAxLjAzYy44NyAxLjUyIDIuMzQgMS4wNyAyLjkxLjgzYy4wOS0uNjUuMzUtMS4wOS42My0xLjM0Yy0yLjIyLS4yNS00LjU1LTEuMTEtNC41NS00LjkyYzAtMS4xMS4zOC0yIDEuMDMtMi43MWMtLjEtLjI1LS40NS0xLjI5LjEtMi42NGMwIDAgLjg0LS4yNyAyLjc1IDEuMDJjLjc5LS4yMiAxLjY1LS4zMyAyLjUtLjMzczEuNzEuMTEgMi41LjMzYzEuOTEtMS4yOSAyLjc1LTEuMDIgMi43NS0xLjAyYy41NSAxLjM1LjIgMi4zOS4xIDIuNjRjLjY1LjcxIDEuMDMgMS42IDEuMDMgMi43MWMwIDMuODItMi4zNCA0LjY2LTQuNTcgNC45MWMuMzYuMzEuNjkuOTIuNjkgMS44NVYyMWMwIC4yNy4xNi41OS42Ny41QzE5LjE0IDIwLjE2IDIyIDE2LjQyIDIyIDEyQTEwIDEwIDAgMCAwIDEyIDIiLz48L3N2Zz4=" alt=""></li></a>
+                        <a href="https://www.instagram.com/joaotrrs/" target="_blank"><li class="iconsimg"><img class="icons-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjMDAwIiBkPSJNNy44IDJoOC40QzE5LjQgMiAyMiA0LjYgMjIgNy44djguNGE1LjggNS44IDAgMCAxLTUuOCA1LjhINy44QzQuNiAyMiAyIDE5LjQgMiAxNi4yVjcuOEE1LjggNS44IDAgMCAxIDcuOCAybS0uMiAyQTMuNiAzLjYgMCAwIDAgNCA3LjZ2OC44QzQgMTguMzkgNS42MSAyMCA3LjYgMjBoOC44YTMuNiAzLjYgMCAwIDAgMy42LTMuNlY3LjZDMjAgNS42MSAxOC4zOSA0IDE2LjQgNHptOS42NSAxLjVhMS4yNSAxLjI1IDAgMCAxIDEuMjUgMS4yNUExLjI1IDEuMjUgMCAwIDEgMTcuMjUgOEExLjI1IDEuMjUgMCAwIDEgMTYgNi43NWExLjI1IDEuMjUgMCAwIDEgMS4yNS0xLjI1TTEyIDdhNSA1IDAgMCAxIDUgNWE1IDUgMCAwIDEtNSA1YTUgNSAwIDAgMS01LTVhNSA1IDAgMCAxIDUtNW0wIDJhMyAzIDAgMCAwLTMgM2EzIDMgMCAwIDAgMyAzYTMgMyAwIDAgMCAzLTNhMyAzIDAgMCAwLTMtMyIvPjwvc3ZnPg==" alt=""></li></a>
+                     </ul>
+                   </div>
+                   <div class="img-container">
+                    <img class="img-eu" :src="eu" alt="">
+                   </div>
+                </div>
+        </section>
     </main>
-    </section>
-    <section class="main-desktop">
-        <div class="text-container-desktop">
-            <p id="hellod">Olá Mundo!</p>
-            <p id="iam">Sou <span class="name-span">João Pedro Soares</span></p>
-            <p id="pres">Bem-vindo ao meu portfólio! Sou <span class="name-span">Desenvolvedor Front-End</span> e <span class="name-span">UX/UI Designer</span>, aqui você pode conhecer minha trajetória e explorar meus projetos. Tenho paixão por criar experiências digitais intuitivas, combinando design e desenvolvimento de forma eficiente. Fique à vontade para conferir meu trabalho!</p>
-        </div>
-    </section>
 </template>
 
 <script lang="ts">
@@ -50,20 +60,23 @@ export default defineComponent({
 .main-container {
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.main-desktop{
+    display: none;
+}
 
 #hello {
     font-weight: 300;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 #iam {
     font-weight: 200;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .name-span {
@@ -71,16 +84,16 @@ export default defineComponent({
 }
 
 #pres {
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 15px;
     font-weight: 200;
     text-align: center;
-    max-width: 420px;
+    max-width: 310px;
 }
 
 #imagem{
     margin-top: 40px;
-    width: 400px;
+    width: 300px;
     animation: animacao 2S infinite;
 }
 .redes-sociais{
@@ -99,7 +112,7 @@ export default defineComponent({
 }
 
 .icons-img{
-    width: 65px;
+    width: 55px;
     padding: 0 10px;
 }
 
@@ -114,37 +127,87 @@ export default defineComponent({
         transform: translateY(0);
     }
 }
+@media (min-width: 1300px) {
 
-@media (min-width: 1100px) {
     .main-mobile{
         display: none;
     }
     .main-desktop{
-        flex-direction: column;
         justify-content: center;
-        height: 100vh;
+        align-items: center;
+        height: 90vh;
         width: 100vw;
         display: flex;
     }
-    .text-container-desktop{
-        text-align: left;
+    .main-container-desktop{
+        background: transparent;
+        justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         display: flex;
+        width: 100vw;
+        height: 90vh;
+    }
+    .text{
+        margin-left: 90px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column
+    }
+    #presd{
+        text-align: left;
+        font-weight: 200;
+        font-size: 20px;
+        max-width: 600px;
     }
     #hellod{
-        margin-left: -30px;
+        margin-left: -220px;
         text-align: left;
-        font-size: 80px;
+        font-weight: 200;
+        font-size: 70px;
     }
-    #iam{
+    #iamd{
+        background: transparent;
+        margin-top: -30px;
+        margin-left: -140px;
+        padding: 20px;
         text-align: left;
+        font-weight: 200;
         font-size: 40px;
     }
-    #pres{
-        text-align: left;
-        min-width: 600px;
-        font-size: 30px;
+    .iconsimg{
+        list-style-type: none;
     }
-} 
+    .icons-img{
+        width: 70px;
+    }
+    .redes-sociais-ul{
+        margin-left: -420px;
+        margin-top: 40px;
+        display: flex;
+    }
+    .icons-img:hover{
+        transform: scale(1.2);
+        transition: 0.3s ease;
+    }
+    .icons-img:not(:hover){
+        transition: 0.3s ease;
+    }
+    .img-container{
+        background: transparent;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    #imagem-desk{
+        display: flex;
+        background: transparent;
+        width: 500px;
+    }
+    .img-eu{
+        animation: animacao 2S infinite;
+        width: 600px;
+    }
+}
 </style>
