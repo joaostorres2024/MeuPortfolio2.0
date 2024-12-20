@@ -52,11 +52,10 @@
   
   @keyframes dot-flashing {
     0% {
-      opacity: 0.2;
+      opacity: 100;
     }
-    50%,
-    100% {
-      opacity: 1;
+    50%{
+      opacity: 0;
     }
   }
   </style>
