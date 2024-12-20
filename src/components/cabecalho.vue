@@ -99,12 +99,12 @@
 
 #p-text1 {
     font-weight: 300;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #p-text2 {
     font-weight: 300;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .menu-ul {
@@ -148,7 +148,7 @@
     margin-top: 20px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
     .header-mobile{
         display: none;
     }

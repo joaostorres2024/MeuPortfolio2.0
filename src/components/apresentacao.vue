@@ -1,5 +1,6 @@
 <template>
-    <main>
+    <section class="main-mobile">
+        <main>
         <div class="main-container">
                 <p id="hello">Olá Mundo!</p>
                 <p id="iam">Sou <span class="name-span">João Pedro Soares</span></p>
@@ -14,6 +15,14 @@
         </div>
         </div>
     </main>
+    </section>
+    <section class="main-desktop">
+        <div class="text-container-desktop">
+            <p id="hellod">Olá Mundo!</p>
+            <p id="iam">Sou <span class="name-span">João Pedro Soares</span></p>
+            <p id="pres">Bem-vindo ao meu portfólio! Sou <span class="name-span">Desenvolvedor Front-End</span> e <span class="name-span">UX/UI Designer</span>, aqui você pode conhecer minha trajetória e explorar meus projetos. Tenho paixão por criar experiências digitais intuitivas, combinando design e desenvolvimento de forma eficiente. Fique à vontade para conferir meu trabalho!</p>
+        </div>
+    </section>
 </template>
 
 <script lang="ts">
@@ -49,12 +58,12 @@ export default defineComponent({
 
 #hello {
     font-weight: 300;
-    font-size: 35px;
+    font-size: 50px;
 }
 
 #iam {
     font-weight: 200;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .name-span {
@@ -62,16 +71,16 @@ export default defineComponent({
 }
 
 #pres {
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 15px;
     font-weight: 200;
     text-align: center;
-    max-width: 310px;
+    max-width: 420px;
 }
 
 #imagem{
     margin-top: 40px;
-    width: 300px;
+    width: 400px;
     animation: animacao 2S infinite;
 }
 .redes-sociais{
@@ -90,7 +99,7 @@ export default defineComponent({
 }
 
 .icons-img{
-    width: 55px;
+    width: 65px;
     padding: 0 10px;
 }
 
@@ -105,4 +114,37 @@ export default defineComponent({
         transform: translateY(0);
     }
 }
+
+@media (min-width: 1100px) {
+    .main-mobile{
+        display: none;
+    }
+    .main-desktop{
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+    }
+    .text-container-desktop{
+        text-align: left;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+    #hellod{
+        margin-left: -30px;
+        text-align: left;
+        font-size: 80px;
+    }
+    #iam{
+        text-align: left;
+        font-size: 40px;
+    }
+    #pres{
+        text-align: left;
+        min-width: 600px;
+        font-size: 30px;
+    }
+} 
 </style>
